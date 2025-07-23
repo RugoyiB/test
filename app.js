@@ -22,7 +22,7 @@ app.use(express.json());
 
 // MongoDB connection string.
 // This string is generated from the inputs provided in the UI.
-mongoose.connect('mongodb+srv://brugoyi@gmail.com:Basil@807@cluster0.rg3zipx.mongodb.net/UserList', {
+mongoose.connect('mongodb+srv://Temp1:Temp807@cluster0.rg3zipx.mongodb.net/UserList', {
     useNewUrlParser: true, // Use the new URL parser instead of the deprecated one
     useUnifiedTopology: true // Use the new server discovery and monitoring engine
 })
